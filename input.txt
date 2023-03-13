@@ -1,0 +1,13 @@
+5:
+6:
+push -15
+CALL :ad
+pop [-16+ax]
+jmp :4
+ret
+ad:
+4:
+2:
+push -020
+add
+ret
